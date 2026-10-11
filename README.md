@@ -1,31 +1,30 @@
 # Hi, I'm Abhilash 👋
 
-I'm learning to build AI applications with Python. I like small projects that I can finish, deploy, and explain.
+I build, test and deploy LLM-powered backends in Python. I like projects I can finish, measure and explain, and I add human-escalation paths so the AI doesn't guess when it's unsure.
 
-## Projects
+📍 Bengaluru, open to remote · 📧 abhilashyaragal570@gmail.com · [LinkedIn](https://linkedin.com/in/abhilashyaragal))
 
-**[Automation Studio](https://github.com/abhilashyaragal570-del/automation-studio)** (Python, FastAPI, Gemini API, SQLite, Render)
-Reads incoming emails with Gemini, picks a category and urgency, extracts the sender, topic and deadline, writes a summary, and drafts a reply. Emails come in through a web page or a secured webhook, go into a job queue that survives restarts, and are handled by a background worker. Includes a login, a dashboard, a jobs log with retry, a daily request cap, search and CSV export. [Live demo](https://automation-studio-w921.onrender.com)
+## Featured projects
 
-**[SupportOps Copilot](https://github.com/abhilashyaragal570-del/supportops-copilot)** (Python, FastAPI, Gemini embeddings, SQLite, Render)
-AI ticket triage for a software company's support team. It sets the category and priority of each ticket, answers from a knowledge base while naming its source, and escalates security issues, refund disputes and low-confidence tickets to a human. Includes a dashboard, a webhook, CSV export and a 28-ticket evaluation set (28/28 correct routing in Gemini mode). [Live demo](https://supportops-copilot-yy34.onrender.com)
+**[Nova](https://github.com/abhilashyaragal570-del/nova)** (Python, Flask, Gemini, PostgreSQL, pytest, GitHub Actions)
+Multi-agent AI assistant with approval-gated tools, a workflow engine (plan → approve → run → retry → resume), RAG document search and long-term memory. Automated tests with fake models run in CI.
 
-**[Notes Assistant API](https://github.com/abhilashyaragal570-del/notes-assistant-ap)** (Python, FastAPI, Gemini API, Render)
-A web app and REST API that answers questions from my own notes using retrieval-augmented generation (RAG). 
+**[SupportOps Copilot](https://github.com/abhilashyaragal570-del/supportops-copilot)** · [Live demo](https://supportops-copilot-yy34.onrender.com)
+(Python, FastAPI, Gemini embeddings, SQLite)
+Support-ticket triage with RAG answers that cite their source, and human escalation for security reports, refund disputes and low-confidence tickets. 28/28 correct on a small hand-written evaluation set.
 
-**[RAG Notes Assistant](https://github.com/abhilashyaragal570-del/rag-notes-assistant)** (Python, Gemini API)
-A command-line assistant that finds the most relevant notes with embeddings and answers only from them.
+**[Automation Studio](https://github.com/abhilashyaragal570-del/automation-studio)** · [Live demo](https://automation-studio-w921.onrender.com)
+(Python, FastAPI, Gemini, SQLite)
+Email-processing service with a restart-safe job queue, background worker, retries, token-secured webhook, dashboard and CSV export.
 
-**[Resume Analyzer](https://github.com/abhilashyaragal570-del/resume-analyzer)** (Python, Gemini API)
-A command-line tool that compares a resume with a job description.
+**[Notes Assistant API](https://github.com/abhilashyaragal570-del/notes-assistant-ap)** · [Live demo](https://notes-assistant-ap.onrender.com)
+(Python, FastAPI, Gemini)
+Answers questions only from retrieved notes, using embeddings-based retrieval.
 
-**[Expense Tracker](https://github.com/abhilashyaragal570-del/expense-tracker)** (Python, JSON, Gemini API)
-A menu-driven tracker with an AI script that turns a plain sentence into a saved expense.
+## Stack
 
-## Tools I use
+Python · FastAPI · Flask · Gemini API · RAG / embeddings · PostgreSQL · SQLite · pytest · GitHub Actions · Docker · Render
 
-Python, FastAPI, Gemini API, SQLite, Git and GitHub, Render, VS Code
+## Looking for
 
-## Currently learning
-
-Building more AI backends and improving how they handle errors, limits, and costs.
+Remote junior backend or AI engineering roles, and freelance AI automation projects. Message me on LinkedIn or by email.

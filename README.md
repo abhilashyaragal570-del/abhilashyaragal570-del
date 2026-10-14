@@ -6,8 +6,9 @@ I build, test and deploy LLM-powered backends in Python. I like projects I can f
 
 ## Featured projects
 
-**[Nova](https://github.com/abhilashyaragal570-del/nova)** (Python, Flask, Gemini, PostgreSQL, pytest, GitHub Actions)
-Multi-agent AI assistant with approval-gated tools, a workflow engine (plan → approve → run → retry → resume), RAG document search and long-term memory. Automated tests with fake models run in CI.
+**[Nova](https://github.com/abhilashyaragal570-del/nova)** · [Live demo](https://nova-wwn8.onrender.com) (Python, FastAPI, Gemini, PostgreSQL, Docker, GitHub Actions)
+Multi-agent AI assistant where every tool call goes through one policy layer: read-only tools run freely, anything that changes things waits for approval, and every call has a timeout. Includes a workflow engine (plan → approve → run → retry → resume), RAG document search that names its source, long-term memory, usage and latency reports, optional OpenTelemetry tracing, and Docker with CI that tests the image on Linux. The demo is password-protected, so contact me through my GitHub profile for access.
+
 
 **[SupportOps Copilot](https://github.com/abhilashyaragal570-del/supportops-copilot)** · [Live demo](https://supportops-copilot-yy34.onrender.com)
 (Python, FastAPI, Gemini embeddings, SQLite)

@@ -2,9 +2,9 @@
 
 ### Python backend and AI engineer: I build LLM systems that are tested, measured and safe to trust
 
-📍 Bengaluru · open to remote · 📧 [abhilashyaragal570@gmail.com](mailto:abhilashyaragal570@gmail.com) · [LinkedIn](https://linkedin.com/in/abhilashyaragal)
+📍 Bengaluru · open to remote · 📧 [abhilashyaragal570@gmail.com](mailto:abhilashyaragal570@gmail.com) · [LinkedIn](https://linkedin.com/in/abhilashyaragal570)
 
-**Open to:** remote junior backend or AI engineering roles, and freelance AI automation projects.
+**Open to:** remote junior backend or AI engineering roles, and freelance AI automation projects, including lead-response automation for real estate agencies.
 
 ## What I do
 
@@ -12,7 +12,7 @@ I build LLM-powered backends in Python, test them properly, and deploy them. I l
 
 - 🧪 **I test AI agents, not just write them.** AgentProbe, my own testing tool, caught a deliberate change at 100% to 0% and a partial drop at 100% to 54% on a real agent.
 - 🛡️ **I design for safety.** In Nova, read-only tools run freely, anything that changes things waits for human approval, and every call has a timeout.
-- 🚀 **I ship.** Four of my projects have live demos, and the tools have CI on GitHub Actions.
+- 🚀 **I ship.** Four of my projects have live demos, the newest has a demo video, and the tools have CI on GitHub Actions.
 - 📝 **I say what I didn't test.** My READMEs have honest limitations sections.
 
 ## Featured projects
@@ -37,6 +37,16 @@ Multi-agent AI assistant where every tool call goes through one policy layer: re
 - Docker, with CI that tests the image on Linux.
 
 The demo is password-protected, so contact me through my GitHub profile for access.
+
+### 🏠 [Lead Responder for real estate agencies](https://github.com/abhilashyaragal570-del/realestate-lead-responder) · [Demo video](https://youtu.be/jI2hQHyUkek)
+*Python, FastAPI, Gemini, SQLite*
+
+Replies to every new enquiry in seconds, in English and Arabic, finds out budget, area and timeline, scores the lead, offers viewing times, books the one the customer picks and alerts the agent. Mortgage, legal, price and availability questions go to a human instead of getting a guess.
+
+- Viewing booking is decided in code, not by the model, so a booking never depends on the model's wording.
+- Agent dashboard with every lead, its score, average first-reply time and booked viewings.
+- 3 offline tests, so results don't depend on an API key.
+- Demo runs in a web chat with sample viewing times and a fictional agency. WhatsApp, a real calendar and agent alerts on WhatsApp or Slack are on the roadmap.
 
 ### 🎫 [SupportOps Copilot](https://github.com/abhilashyaragal570-del/supportops-copilot) · [Live demo](https://supportops-copilot-yy34.onrender.com)
 *Python, FastAPI, Gemini embeddings, SQLite*
